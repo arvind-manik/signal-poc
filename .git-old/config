@@ -1,0 +1,20 @@
+[core]
+	repositoryformatversion = 0
+	filemode = true
+	bare = false
+	logallrefupdates = true
+	ignorecase = true
+	precomposeunicode = true
+[remote "old-origin"]
+	url = https://github.com/sahat/hackathon-starter.git
+	fetch = +refs/heads/*:refs/remotes/old-origin/*
+[branch "master"]
+	remote = old-origin
+	merge = refs/heads/master
+[remote "origin"]
+	url = git@git.csez.zohocorpin.com:arvind.mg/ozen-signal-poc.git
+	fetch = +refs/heads/*:refs/remotes/origin/*
+[user]
+	name = arvind.mg
+        email = arvind.mg@zohocorp.com
+	password = Elpsycongroo11
